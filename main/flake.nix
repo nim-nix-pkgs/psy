@@ -11,6 +11,7 @@
   inputs.src-psy-main.ref   = "refs/heads/main";
   inputs.src-psy-main.owner = "psypac";
   inputs.src-psy-main.repo  = "psypac";
+  inputs.src-psy-main.dir   = "";
   inputs.src-psy-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
